@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jquery Assignment 5</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="image-box">
+      <form class="" action="index.html" method="post">
+        <div>
+          <p>
+            <input type="text" disabled>
+            <label for="file">Browse</label>
+            <input type="file" id="file" onchange="fileName(this)">
+            <select>
+              <option value="">Select</option>
+              <option value="primary" selected>Primary</option>
+              <option value="">Secondary</option>
+            </select>
+          </p>
+        </div>
+        <div id=addAnother></div>
+      </form>
+      <button type="button" name="button" onclick="addAnother()">Add Another</button>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
